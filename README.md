@@ -3,8 +3,8 @@
 ## Motivation
 
 FPGA 기반 트랜스포머 가속기 연구는 이미 성숙한 분야다 (FlightLLM, HLSTransform,
-Transformer-OPU 등). 차별화 지점은 **"왜 특정 설계가 병목에 걸리는지를 구현 전에
-예측할 수 있는 분석 프레임워크"**를 만드는 것이다.
+Transformer-OPU 등). 차별화 지점은 "왜 특정 설계가 병목에 걸리는지를 구현 전에
+예측할 수 있는 분석 프레임워크"를 만드는 것이다.
 
 Intel의 DECA (Gerogiannis et al., 2025, "A Near-Core LLM Decompression
 Accelerator Grounded on a 3D Roofline Model")는 CPU+HBM 환경에서 memory /
